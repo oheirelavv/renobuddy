@@ -221,6 +221,22 @@ GLOBAL_CSS = """
     border-color: var(--yellow) !important;
 }
 
+/* --- Verify example buttons: full text, no truncation --- */
+.st-key-verify_examples .stButton button {
+    height: auto !important;
+    min-height: 2.75rem;
+}
+.st-key-verify_examples .stButton button p,
+.st-key-verify_examples .stButton button span,
+.st-key-verify_examples .stButton button > div {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    display: block !important;
+}
+
 /* ============ INPUTS ============ */
 [data-testid="stSelectbox"] label,
 [data-testid="stMultiSelect"] label,

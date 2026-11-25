@@ -41,11 +41,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-cols = st.columns(2)
-for i, example in enumerate(EXAMPLE_CLAIMS):
-    with cols[i % 2]:
-        if st.button(example, key=f"ex_{i}", use_container_width=True):
-            st.session_state.verify_input = example
+with st.container(key="verify_examples"):
+    cols = st.columns(2)
+    for i, example in enumerate(EXAMPLE_CLAIMS):
+        with cols[i % 2]:
+            if st.button(example, key=f"ex_{i}", use_container_width=True):
+                st.session_state.verify_input = example
 
 # --- Input ---
 claim_text = st.text_area(
