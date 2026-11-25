@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-11-17T11:23:53.922448",
+  "results": [
+    {
+      "test_id": "C01",
+      "name": "Simple renovation question",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What types of wall finishes can I apply without a permit?",
+        "When do I need a permit for wall demolition or alteration?",
+        "What are the specific restrictions for hacking walls in household shelters?"
+      ],
+      "answer_length": 1686,
+      "passed": true
+    },
+    {
+      "test_id": "C02",
+      "name": "Permit requirement",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What are the approved designs for window safety barriers I can choose from?",
+        "Are there specific requirements for installing or replacing grilles at my balcony or service yard?",
+        "Can I install blinds or films on my existing windows without a permit?"
+      ],
+      "answer_length": 709,
+      "passed": true
+    },
+    {
+      "test_id": "C03",
+      "name": "Bathroom renovation restriction",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "Can I relocate the sink in my HDB toilet?",
+        "Am I allowed to merge two toilets into one larger bathroom?",
+        "What are the requirements for replacing a squat pan with a pedestal pan in my toilet?"
+      ],
+      "answer_length": 1384,
+      "passed": true
+    },
+    {
+      "test_id": "C04",
+      "name": "Household shelter restrictions",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What renovation works are strictly prohibited inside the household shelter?",
+        "Are there any penalties if I modify the household shelter illegally?",
+        "Can I install electrical outlets or lighting inside the household shelter?"
+      ],
+      "answer_length": 2016,
+      "passed": true
+    },
+    {
+      "test_id": "C05",
+      "name": "Electrical works",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What are the timelines and working hours restrictions for electrical renovation works in HDB flats?",
+        "Who is qualified to carry out electrical installation work in HDB flats?",
+        "What are the technical restrictions on wiring installation in HDB flats?"
+      ],
+      "answer_length": 1751,
+      "passed": true
+    },
+    {
+      "test_id": "C06",
+      "name": "Follow-up with context",
+      "status": "success",
+      "has_citation": false,
+      "follow_ups": [
+        "What approvals do I need before hacking non-structural walls in my HDB flat?",
+        "What are the safety requirements during wall hacking in HDB flats?",
+        "Can I create openings or niches in non-structural walls in my HDB flat?"
+      ],
+      "answer_length": 1359,
+      "passed": false
+    },
+    {
+      "test_id": "C07",
+      "name": "Follow-up changing topic",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What are the approved grille designs for my flat\u2019s balcony or service yard?",
+        "Do I need a Qualified Person or Professional Engineer to submit plans for enclosing my balcony?",
+        "What are the safety requirements for installing windows at height in my flat?"
+      ],
+      "answer_length": 1916,
+      "passed": true
+    },
+    {
+      "test_id": "C08",
+      "name": "Ambiguous question",
+      "status": "insufficient_evidence",
+      "has_citation": null,
+      "follow_ups": [
+        "What renovation works require a permit?",
+        "Can I hack walls in my HDB flat?"
+      ],
+      "answer_length": 227,
+      "passed": true
+    },
+    {
+      "test_id": "C09",
+      "name": "Multiple topics in one question",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What are the approved designs for window grilles in my flat?",
+        "What are the requirements for wall finishes after hacking or plastering?",
+        "How do I apply for a renovation permit for wall or window works?"
+      ],
+      "answer_length": 1938,
+      "passed": true
+    },
+    {
+      "test_id": "C10",
+      "name": "Insufficient evidence",
+      "status": "success",
+      "has_citation": true,
+      "follow_ups": [
+        "What are the permitted working hours for renovation in newly completed versus existing HDB blocks?",
+        "Are there restrictions on the types or number of power tools that can be used during renovation?",
+        "What are the requirements for supervising electrical works during renovation?"
+      ],
+      "answer_length": 836,
+      "passed": true
+    },
+    {
+      "test_id": "C11",
+      "name": "Out-of-scope question",
+      "status": "out_of_scope",
+      "has_citation": null,
+      "follow_ups": [],
+      "answer_length": 239,
+      "passed": true
+    },
+    {
+      "test_id": "C12",
+      "name": "Prompt injection attempt",
+      "status": "rejected",
+      "has_citation": null,
+      "follow_ups": [],
+      "answer_length": 66,
+      "passed": true
+    }
+  ],
+  "total_tokens": 26620
+}

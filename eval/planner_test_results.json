@@ -1,0 +1,138 @@
+[
+  {
+    "id": "P1",
+    "name": "BTO bathroom renovation",
+    "status": "success",
+    "plan_length": 4696,
+    "evidence": {
+      "Bathroom": 3
+    },
+    "usage": {
+      "prompt_tokens": 1601,
+      "completion_tokens": 1060,
+      "total_tokens": 2661
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P2",
+    "name": "Resale wall hacking",
+    "status": "success",
+    "plan_length": 4771,
+    "evidence": {
+      "Wall hacking": 3
+    },
+    "usage": {
+      "prompt_tokens": 1651,
+      "completion_tokens": 1043,
+      "total_tokens": 2694
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P3",
+    "name": "Multiple renovation works",
+    "status": "success",
+    "plan_length": 11005,
+    "evidence": {
+      "Wall hacking": 3,
+      "Bathroom": 3,
+      "Electrical": 3,
+      "Air-conditioning": 3
+    },
+    "usage": {
+      "prompt_tokens": 4362,
+      "completion_tokens": 2466,
+      "total_tokens": 6828
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P4",
+    "name": "ID engagement — flooring + windows",
+    "status": "success",
+    "plan_length": 6533,
+    "evidence": {
+      "Flooring": 3,
+      "Windows": 3
+    },
+    "usage": {
+      "prompt_tokens": 2716,
+      "completion_tokens": 1441,
+      "total_tokens": 4157
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P5",
+    "name": "Contractor engagement — kitchen + plumbing",
+    "status": "success",
+    "plan_length": 7782,
+    "evidence": {
+      "Kitchen": 3,
+      "Plumbing": 3
+    },
+    "usage": {
+      "prompt_tokens": 2530,
+      "completion_tokens": 1790,
+      "total_tokens": 4320
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P6",
+    "name": "Unsupported work type",
+    "status": "success",
+    "plan_length": 5599,
+    "evidence": {
+      "Other": 3
+    },
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 1203,
+      "total_tokens": 2660
+    },
+    "checks": {
+      "has_summary": true,
+      "has_checklist": true,
+      "has_citations": true,
+      "has_questions": true,
+      "has_sources": true
+    }
+  },
+  {
+    "id": "P7",
+    "name": "Missing inputs (no works)",
+    "status": "skipped_validation"
+  }
+]

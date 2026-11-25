@@ -1,0 +1,263 @@
+{
+  "generated": "2026-11-24",
+  "sources": [
+    {
+      "source_id": "hdb-building-works",
+      "title": "HDB Renovation Guidelines – Building Works",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/building-works",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "walls",
+        "wall finishes",
+        "false ceiling",
+        "kitchen",
+        "refuse chute",
+        "household shelter",
+        "door and gate",
+        "sold recess area",
+        "floor finishes",
+        "rented common area",
+        "staircase",
+        "bathroom and toilet",
+        "awning"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "success",
+      "total_sections": 14,
+      "sections_with_content": 14,
+      "total_text_length": 33151,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "hdb-window-works",
+      "title": "HDB Renovation Guidelines – Window Works",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/window-works",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "window replacement",
+        "window repair",
+        "full height windows",
+        "BCA approved contractors"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "success",
+      "total_sections": 4,
+      "sections_with_content": 4,
+      "total_text_length": 8889,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "hdb-electrical-works",
+      "title": "HDB Renovation Guidelines – Electrical Works",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/electrical-works",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "electrical works",
+        "permits",
+        "electrical loading",
+        "rewiring"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "success",
+      "total_sections": 3,
+      "sections_with_content": 3,
+      "total_text_length": 9762,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "hdb-aircon-works",
+      "title": "HDB Renovation Guidelines – Air-Conditioner Installation",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/air-conditioner-installation-works",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "aircon installation",
+        "compressor",
+        "30 amps",
+        "40 amps"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "success",
+      "total_sections": 3,
+      "sections_with_content": 3,
+      "total_text_length": 5254,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "hdb-plumbing-gas-works",
+      "title": "HDB Renovation Guidelines – Water, Sanitary Plumbing and Gas Works",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/water-and-sanitary-plumbing-works-and-gas-works",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "plumbing",
+        "gas works",
+        "toilet pan",
+        "pipes",
+        "sinks",
+        "bath and shower"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "success",
+      "total_sections": 6,
+      "sections_with_content": 6,
+      "total_text_length": 8112,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "hdb-registered-contractors",
+      "title": "HDB Registered Renovation Contractors Directory",
+      "url": "https://services2.hdb.gov.sg/webapp/BN31AWERRCMobile/BN31PListingContractor.jsp",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [
+        "registered contractors",
+        "renovation contractors"
+      ],
+      "retrieval_date": "2026-10-23",
+      "status": "dynamic_directory",
+      "total_sections": 0,
+      "sections_with_content": 0,
+      "total_text_length": 0,
+      "errors": [
+        "Dynamic JSP directory — requires form submission. Will link users to official directory instead."
+      ],
+      "source_tier": 1
+    },
+    {
+      "source_id": "scdf-household-shelter-works",
+      "title": "SCDF – Permitted and Not Permitted Works for Household Shelters",
+      "url": "https://www.scdf.gov.sg/docs/default-source/cd-shelter-(docs)/permitted_and_not_permitted_works_for_hs31fc3b53-7baf-4b88-9546-2f8072adf802.pdf",
+      "organisation": "Singapore Civil Defence Force (SCDF)",
+      "topics": [
+        "household shelter",
+        "permitted works",
+        "not permitted works",
+        "shelter door",
+        "ventilation sleeve",
+        "drilling",
+        "floor tiles",
+        "wall tiles",
+        "fragmentation plate",
+        "HS walls"
+      ],
+      "retrieval_date": "2026-11-13",
+      "status": "success",
+      "total_sections": 3,
+      "sections_with_content": 3,
+      "total_text_length": 4802,
+      "errors": [],
+      "source_tier": 1
+    },
+    {
+      "source_id": "qanvast-household-shelter",
+      "title": "Qanvast – What You Can and Cannot Do with Your HDB Household Shelter",
+      "url": "https://qanvast.com/sg/articles/what-you-can-and-cannot-do-with-your-hdb-household-shelter-2445",
+      "organisation": "Qanvast",
+      "topics": [
+        "household shelter",
+        "shelter door",
+        "ventilation sleeve",
+        "drilling",
+        "floor finishes",
+        "facade",
+        "wallpaper"
+      ],
+      "retrieval_date": "2026-11-13",
+      "status": "success",
+      "total_sections": 3,
+      "sections_with_content": 3,
+      "total_text_length": 1625,
+      "errors": [],
+      "source_tier": 2
+    },
+    {
+      "source_id": "qanvast-illegal-reno-works",
+      "title": "Qanvast – 9 HDB Renovation Works That Are Actually Illegal",
+      "url": "https://qanvast.com/sg/articles/9-hdb-renovation-works-that-are-actually-illegal-and-to-avoid-3368",
+      "organisation": "Qanvast",
+      "topics": [
+        "illegal renovation",
+        "platform storage",
+        "void area",
+        "concealing pipes",
+        "structural walls",
+        "household shelter",
+        "floor level",
+        "corridor fixtures",
+        "bathroom layout",
+        "BTO tiles",
+        "fines"
+      ],
+      "retrieval_date": "2026-11-13",
+      "status": "success",
+      "total_sections": 9,
+      "sections_with_content": 9,
+      "total_text_length": 2696,
+      "errors": [],
+      "source_tier": 2
+    },
+    {
+      "source_id": "qanvast-skylight-hdb",
+      "title": "Qanvast – Can You Install a Skylight in an HDB Flat?",
+      "url": "https://qanvast.com/sg/articles/can-you-install-a-skylight-in-an-hdb-flat-heres-what-to-consider-3630",
+      "organisation": "Qanvast",
+      "topics": [
+        "faux skylight",
+        "false ceiling",
+        "ceiling height",
+        "LED panel",
+        "lighting",
+        "HDB renovation"
+      ],
+      "retrieval_date": "2026-11-13",
+      "status": "success",
+      "total_sections": 5,
+      "sections_with_content": 5,
+      "total_text_length": 2772,
+      "errors": [],
+      "source_tier": 2
+    },
+    {
+      "source_id": "qanvast-toilet-renovation",
+      "title": "Qanvast – What You Can and Cannot Do with Your HDB Toilets During Renovations",
+      "url": "https://qanvast.com/sg/articles/what-you-can-and-cannot-do-with-your-hdb-toilets-during-renovations-3617",
+      "organisation": "Qanvast",
+      "topics": [
+        "toilet renovation",
+        "bathroom",
+        "sink relocation",
+        "merge toilets",
+        "conceal pipes",
+        "bathtub",
+        "jacuzzi",
+        "wet area",
+        "BTO tiles",
+        "waterproofing"
+      ],
+      "retrieval_date": "2026-11-13",
+      "status": "success",
+      "total_sections": 8,
+      "sections_with_content": 8,
+      "total_text_length": 1748,
+      "errors": [],
+      "source_tier": 2
+    },
+    {
+      "source_id": "managing-my-home-renovation-and-maintenance-renovation-appli",
+      "title": "Application for a Renovation Permit",
+      "url": "https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/application-for-a-renovation-permit",
+      "organisation": "Housing & Development Board (HDB)",
+      "topics": [],
+      "retrieval_date": "2026-11-24",
+      "status": "success",
+      "total_sections": 5,
+      "sections_with_content": 5,
+      "total_text_length": 6430,
+      "source_tier": 1,
+      "errors": []
+    }
+  ]
+}

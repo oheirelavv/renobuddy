@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-11-16T14:17:07.208329",
+  "results": [
+    {
+      "test_id": "T1",
+      "name": "Household shelter drilling restrictions",
+      "expected_verdict": "Contradicted",
+      "actual_verdict": "Contradicted",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T2",
+      "name": "Platform storage (Qanvast-only, no relevant Tier 1)",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "Unable to verify",
+      "verdict_match": true,
+      "tier1_cited": false,
+      "citation_ok": true,
+      "overridden": true,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T3",
+      "name": "Skylight installation costs (Tier 2 context)",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "N/A",
+      "verdict_match": true,
+      "tier1_cited": false,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T4",
+      "name": "Bathroom renovation restrictions",
+      "expected_verdict": "Supported",
+      "actual_verdict": "Unable to verify",
+      "verdict_match": false,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": false
+    },
+    {
+      "test_id": "T5",
+      "name": "Wall hacking permits",
+      "expected_verdict": "Contradicted",
+      "actual_verdict": "Contradicted",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T6",
+      "name": "Contractor registration",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "Unable to verify",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T7",
+      "name": "Jacuzzi 400kg limit (in HDB Tier 1 source)",
+      "expected_verdict": "Supported",
+      "actual_verdict": "Supported",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T8",
+      "name": "Official vs commercial on shelter works",
+      "expected_verdict": "Supported",
+      "actual_verdict": "Supported",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T9",
+      "name": "Mezzanine in maisonette (Tier 2 quoting HDB)",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "Supported",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T10",
+      "name": "Faux skylight false ceiling (irrelevant T1 alongside relevant T2)",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "N/A",
+      "verdict_match": true,
+      "tier1_cited": false,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T11",
+      "name": "Mixed claims: wall hack + platform storage",
+      "expected_verdict": "mixed",
+      "actual_verdicts": [
+        "Supported",
+        "Unable to verify"
+      ],
+      "tier_overrides": [],
+      "passed": true
+    },
+    {
+      "test_id": "T12",
+      "name": "Explicit Tier 1 contradiction (window replacement)",
+      "expected_verdict": "Contradicted",
+      "actual_verdict": "Contradicted",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    },
+    {
+      "test_id": "T13",
+      "name": "Insufficient official evidence (fire safety cert)",
+      "expected_verdict": "Unable to verify",
+      "actual_verdict": "Contradicted",
+      "verdict_match": true,
+      "tier1_cited": true,
+      "citation_ok": true,
+      "overridden": false,
+      "evidence_relevant": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+
+# Data (raw downloads, not committed)
+data/raw/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.venv/
+
+# Claude Code
+.claude/
