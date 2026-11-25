@@ -103,6 +103,7 @@ def require_auth() -> str:
     if submitted:
         role = check_password(username.strip(), password)
         if role:
+            _clear_user_state()
             st.session_state.auth_role = role
             st.session_state.auth_user = username.strip()
             st.rerun()
@@ -120,7 +121,24 @@ def require_admin():
     return role
 
 
-def logout():
-    for key in ["auth_role", "auth_user"]:
-        if key in st.session_state:
+_USER_STATE_KEYS = [
+    "plan_result", "plan_inputs", "checklist_state",
+    "verify_result", "verify_input",
+    "chat_history",
+    "kb_preview", "kb_source_type",
+]
+
+
+def _clear_user_state():
+    """Remove all feature data from session state, keeping only auth keys."""
+    for key in _USER_STATE_KEYS:
+        st.session_state.pop(key, None)
+    for key in list(st.session_state.keys()):
+        if key.startswith("cb_"):
             del st.session_state[key]
+
+
+def logout():
+    _clear_user_state()
+    for key in ["auth_role", "auth_user"]:
+        st.session_state.pop(key, None)
